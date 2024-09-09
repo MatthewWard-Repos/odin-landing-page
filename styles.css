@@ -1,7 +1,10 @@
 body {
   display: flex;
+  justify-content: center;
   flex-direction: column;
   font-family: "Roboto", sans-serif;
+  margin: 0%;
+  padding: 0% 10%;
 }
 
 button {
@@ -36,7 +39,6 @@ p {
   padding: 150px;
   padding-top: 20px;
   padding-bottom: 100px;
-  min-width: 570px;
 }
 
 .place-holder {
@@ -100,7 +102,28 @@ p {
   border-radius: 15px;
 }
 .quote {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   background-color: #e5e7eb;
+  padding: 100px;
+  color: #1f2937;
+  margin-bottom: 10%;
+}
+
+.quote-box {
+  width: 800px;
+}
+
+.quote-text {
+  font-size: 36px;
+  font-style: italic;
+  font-weight: 300;
+}
+.quote-author {
+  padding-right: 5%;
+  text-align: end;
+  font-weight: bold;
 }
 
 .sign-up {
