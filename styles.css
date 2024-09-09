@@ -156,6 +156,11 @@ p {
   font-weight: bold;
 }
 .footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5%;
   background-color: #1f2937;
-  color: white;
+  color: #e5e7eb;
+  font-size: 18px;
 }
