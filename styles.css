@@ -78,6 +78,26 @@ p {
 
 .information {
   text-align: center;
+  margin: 50px 100px 100px 100px;
+}
+.info-images {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10%;
+  margin: 50px;
+}
+.info-boxes {
+  width: 150px;
+  height: 150px;
+  flex-shrink: 0;
+  color: grey;
+}
+.image-border {
+  height: 100%;
+  width: 100%;
+  border: 3px solid #3882f6;
+  border-radius: 15px;
 }
 .quote {
   background-color: #e5e7eb;
