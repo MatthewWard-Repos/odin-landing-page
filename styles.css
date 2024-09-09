@@ -54,6 +54,7 @@ p {
   justify-content: space-between;
   align-items: center;
   margin-bottom: 50px;
+  min-width: 545px;
 }
 .links {
   display: flex;
@@ -81,6 +82,11 @@ p {
 .information {
   text-align: center;
   margin: 50px 100px 100px 100px;
+}
+.info-header {
+  font-size: 36px;
+  font-weight: 900;
+  color: #1f2937;
 }
 .info-images {
   display: flex;
@@ -127,8 +133,27 @@ p {
 }
 
 .sign-up {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
   background-color: #3882f6;
   color: white;
+  margin: 0% 10% 10% 10%;
+  padding: 5% 15%;
+  border-radius: 15px;
+  gap: 10px;
+}
+.sign-up p {
+  color: #e5e7eb;
+  font-size: 18px;
+}
+.sign-up h1 {
+  font-size: 24px;
+}
+.sign-up button {
+  border: 1px white solid;
+  min-width: 100px;
+  font-weight: bold;
 }
 .footer {
   background-color: #1f2937;
